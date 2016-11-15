@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface BaseNetworking : NSObject
-
+//kjjhhg
 + (id)GET:(NSString *)path parameters:(NSDictionary *)parameters completionHandler:(void(^)(id responseObj, NSError *error))completionHandler;
 
 + (id)POST:(NSString *)path parameters:(NSDictionary *)parameters completionHandler:(void(^)(id responseObj, NSError *error))completionHandler;
